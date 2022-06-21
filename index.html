@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tuneconnect</title>
+  <meta name="description" content="Listen to your fav lofi-beats to be more productive at your work or Listen while solving those tough assignments or just Relax!">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="tuneconnect.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+ 
+  <style>
+    footer u a{
+      color: grey;
+
+    }
+    @media screen and (max-width:1200px){
+	.term-conditions{
+		width: 40%;
+
+	}
+}
+@media screen and (max-width:700px){
+	.term-conditions{
+		width: 80%;
+    text-align: center;
+    margin-top: -5vh;
+
+	}
+}
+
+@media screen and (max-width:1200px){
+	.i{
+		width: 40px;
+
+	}
+}
+@media screen and (max-width:600px){
+	.i{
+		width: 40px;
+    margin-left: 10px;
+
+	}
+}
+
+
+
+
+  </style>
+</head>
+<body>
+
+ <header class="header" style="background-color: white;">
+    <div class="container" >
+        <div class="row align-items-center justify-content-between">
+            <div class="logo" >
+             <div class="i" style="background-image:url('Frame 1 (2).png'); width: 40px; height: 40px;">
+
+             </div>
+             
+            <h1>
+                <a href="#" style="color: black; user-select: none;">Tuneconnect</a>
+               </h1>
+            </div>
+            <button type="button" class="nav-toggler">
+               <span></span>
+            </button>
+            <nav class="nav" >
+               <ul style="user-select: none;">
+                  <li><a href="about.html"  style="color: black;">about</a></li>
+                  <li><a href="blog.html"  style="color: black;">Blog</a></li>
+               </ul>
+            </nav>
+        </div>
+    </div>
+ </header>
+ 
+    <div class="text-cointainer">
+      <div class="text-detail" style="user-select: none;">
+          <p>can't focus on work due to noisy surroundings?Listen lofi beats and get your work done or simply relax. </p>
+      </div>
+    <div class="btn-ins">
+      <span class="text-1">
+        Playing instructions
+
+      </span>
+      <span class="text-2">
+        Tap to play  <br>
+        double tap to pause
+        
+      </span>
+    </div>
+  </div>
+  
+  <div class="tunes-main-music-container">
+     
+      <!-- music box 1 -->
+      <div class="tune-container" onclick="playsong()" ondblclick="pausesong()">
+          
+          <div class="tune-logo" >
+              <ion-icon name="leaf-outline"></ion-icon>
+
+          </div>
+          <!-- music by
+          Art of silence by uniq
+https://soundcloud.com/uniqofficial/
+Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Music promoted by https://www.chosic.com/free-music/all/  -->
+
+      </div>
+      <!-- music box 2 -->
+      <div class="tune-container "  onclick="playsong1()" ondblclick="pausesong1()">
+          <div class="tune-logo">
+              <ion-icon name="rocket-outline"></ion-icon>
+          </div>
+
+          
+      </div>
+      <!-- music box 3-->
+      <div class="tune-container"  onclick="playsong2()" ondblclick="pausesong2()">
+          <div class="tune-logo">
+              <ion-icon name="moon-outline"></ion-icon>
+          </div>
+           <!-- music by 
+          Simplicit Nights by Ghostrifter Official | https://soundcloud.com/ghostrifter-official
+Creative Commons — Attribution-NoDerivs 3.0 Unported — CC BY-ND 3.0
+Music promoted by https://www.chosic.com/free-music/all/
+  -->
+          
+      </div>
+      <!-- music box 4 -->
+      <div class="tune-container"  onclick="playsong3()" ondblclick="pausesong3()">
+          <div class="tune-logo">
+            <ion-icon name="code-slash-outline"></ion-icon>
+          </div>
+          <!-- music by
+          And So It Begins by Artificial.Music | https://soundcloud.com/artificial-music/
+Licensed under Creative Commons: Attribution 3.0 Unported (CC BY 3.0)
+https://creativecommons.org/licenses/by/3.0/
+Music promoted by https://www.chosic.com/free-music/all/  -->
+         
+          
+      </div>
+
+
+
+
+  </div>
+
+   
+
+    <footer class="text-gray-600 body-font" style="margin-top:4vh;">
+     
+      <!-- <div class="play_pause_box__">
+        <button class="playbtn btn">Play</button>
+
+        <button class="pausebtn btn">pause</button>
+      </div> -->
+      
+      
+      <div class="container-f">
+        <div class="term-conditions" style="user-select: none;">
+          By using Tuneconnect you agree to  <u><a href="">privacy policy</a></u>  and <u><a href="termandcond.html">Terms and conditions</a></u>
+        
+         </div>
+        
+        
+        
+      </div>
+     
+    </footer>
+  
+    
+  <!-- scripts for icons -->
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+    
+  </script>
+ 
+ <!-- js links -->
+<script src="script.js"></script>
+<script src="tuneconnect.js"></script>
+</body>
+</html>

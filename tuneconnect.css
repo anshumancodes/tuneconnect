@@ -142,6 +142,10 @@ justify-content: center;
 .btn-ins:hover .text-2{
     transform: rotateY(0deg);
 }
+sup{
+  font-size: 0.8rem;
+  color: purple;
+}
 
 
 
